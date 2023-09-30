@@ -1,0 +1,29 @@
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+.sidebar {
+    height: 100%;
+    width: 175px;
+    position: fixed;
+    top: 175px;
+    left: 0px;
+    background-color: white;
+    padding-top: 5px;
+    color: white;
+}
+
+/* Adjust content to the right of the sidebar */
+.content {
+    margin-left: 175px;
+    padding: 15px;
+}
+
+footer {
+    margin-left: 250px;
+    padding: 15px;
+}
+
+/* colors 
+dark blue: #263665
+light green: #8cdbbc */
