@@ -1,29 +1,99 @@
-
 * {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .sidebar {
-    height: 100%;
-    width: 175px;
-    position: fixed;
-    top: 175px;
-    left: 0px;
-    background-color: white;
-    padding-top: 5px;
-    color: white;
+  height: 100%;
+  width: 175px;
+  position: fixed;
+  top: 175px;
+  left: 0px;
+  background-color: #f4f4f9;
+  padding-top: 5px;
+}
+
+.navbar {
+  background-color: #f4f4f9;
+  color: #2f4550 !important;
+}
+
+.btn {
+  background-color: #2f4550 !important;
+  color: #f4f4f9;
 }
 
 /* Adjust content to the right of the sidebar */
 .content {
-    margin-left: 175px;
-    padding: 15px;
+  margin-left: 175px;
+  padding: 15px;
 }
 
-footer {
-    margin-left: 250px;
-    padding: 15px;
+.footer {
+  margin-left: 250px;
+  padding: 15px;
+  background-color: #f4f4f9;
 }
 
-/* colors 
-dark blue: #263665
-light green: #8cdbbc */
+/*Fosters Page - album styles */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+/* end of Fosters Page - album styles */
+
+/* colors TEMPLATE 
+BLACK: 000000
+DARK TEAL: 2F4550
+ MEDIUM TEAL: 586F7C
+ LIGHT TEAL:B8DBD9
+ LIGHT GREY: F4F4F9 */
+
+/* Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
