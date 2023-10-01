@@ -18,9 +18,27 @@
 
 .btn {
   background-color: #2f4550 !important;
-  color: #f4f4f9;
+  color: #B8DBD9;
 }
 
+.nav-link {
+  color: #2f4550;
+}
+
+.nav-link:hover {
+  border: 0px solid black;
+  background-color: #2f4550;
+  color: #B8DBD9;
+}
+
+.nav-link:active {
+  color: #B8DBD9;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #B8DBD9;
+    background-color: #2f4550;
+}
 /* Adjust content to the right of the sidebar */
 .content {
   margin-left: 175px;
