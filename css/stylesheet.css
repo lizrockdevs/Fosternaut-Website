@@ -51,7 +51,17 @@
   background-color: #f4f4f9;
 }
 
+.fixed-bottom {
+  text-align: center;
+}
+
 /*Fosters Page - album styles */
+
+.py-5 {
+  margin: auto;
+width: 50%;
+}
+  
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -93,6 +103,20 @@ text {
 }
 
 /* end of Fosters Page - album styles */
+
+/*start of events page - carosel style*/
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+    /*end of events page*/
 
 /* colors TEMPLATE 
 BLACK: 000000

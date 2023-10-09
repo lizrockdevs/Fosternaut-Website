@@ -1,5 +1,9 @@
 {
-    "vscode-pets.petColor": "orange",
-    "vscode-pets.throwBallWithMouse": true,
-    "vscode-pets.petSize": "medium"
+  "vscode-pets.petColor": "orange",
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.petSize": "medium",
+  "workbench.colorTheme": "Bluloco Dark",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.preferredDarkColorTheme": "Bluloco Dark",
+  "workbench.preferredHighContrastColorTheme": "Bluloco Dark"
 }
