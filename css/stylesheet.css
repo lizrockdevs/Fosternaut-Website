@@ -1,11 +1,11 @@
 * {
   font-family: "Ubuntu", sans-serif;
 }
+
 .sidebar {
   height: 100%;
   width: 175px;
   position: fixed;
-  top: 175px;
   left: 0px;
   background-color: #f4f4f9;
   padding-top: 5px;
@@ -35,10 +35,12 @@
   color: #B8DBD9;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #B8DBD9;
-    background-color: #2f4550;
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #B8DBD9;
+  background-color: #2f4550;
 }
+
 /* Adjust content to the right of the sidebar */
 .content {
   margin-left: 175px;
@@ -59,9 +61,9 @@
 
 .py-5 {
   margin: auto;
-width: 50%;
+  width: 65%;
 }
-  
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -105,20 +107,21 @@ text {
 /* end of Fosters Page - album styles */
 
 /*start of events page - carosel style*/
-    /* .carousel-inner img {
-      width: 100%; 
-      min-height: 200px;
-    } 
-    
-    */
+/* .carousel-inner img {
+  width: 100%
+  min-height: 200px;
+} */
 
-    /* Hide the carousel text when the screen is less than 600 pixels wide */
-    @media (max-width: 600px) {
-      .carousel-caption {
-        display: none; 
-      }
-    }
-    /*end of events page*/
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/*end of events page*/
 
 /* colors TEMPLATE 
 BLACK: 000000
