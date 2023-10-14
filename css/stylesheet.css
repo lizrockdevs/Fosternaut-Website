@@ -1,5 +1,6 @@
 * {
   font-family: "Ubuntu", sans-serif;
+  border-radius: 0 !important;
 }
 
 .sidebar {
@@ -13,7 +14,6 @@
 
 .navbar {
   background-color: #f4f4f9;
-  color: #2f4550 !important;
 }
 
 .btn {
@@ -47,14 +47,20 @@
   padding: 15px;
 }
 
-.footer {
-  margin-left: 250px;
+table {
+  margin: auto;
+  text-align: start;
+}
+
+
+footer {
+  margin: 0 auto;
   padding: 15px;
   background-color: #f4f4f9;
 }
 
-.fixed-bottom {
-  text-align: center;
+.form-label {
+  font-weight: bold;
 }
 
 /*Fosters Page - album styles */
